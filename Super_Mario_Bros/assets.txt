@@ -1,0 +1,54 @@
+Texture     TexStand				images/megaman/megaStand.png
+Texture     TexShoot				images/megaman/megaShot.png
+Texture     TexRun					images/megaman/megaRun.png
+Texture     TexAir					images/megaman/megaJump.png
+Texture     TexBuster				images/megaman/megaBuster.png
+Texture     TexGround				images/mario/ground.png
+Texture     TexBrick				images/mario/brick2.png
+Texture     TexSmallCloud			images/mario/SmallCloud.png
+Texture     TexExplode				images/animations/explosion.png
+Texture     TexBigBush				images/mario/BigBush.png
+Texture     TexSmallbush			images/mario/SmallBush.png
+Texture     TexGoombawalk			images/mario/GoombaWalk.png
+Texture     TexBusher				images/mario/Busher.png
+Texture     TexPipe					images/mario/SmallPipe.png
+Texture     TexTallPipe				images/mario/TallPipe.png
+Texture     TexCloud				images/mario/BigCloud.png
+Texture     TexGoombadeath			images/mario/GoombaDeath.png
+Texture     TexQuestion1			images/animations/questionBlock.png
+Texture     TexQuestion3			images/mario/question.png
+Texture     TexQuestion2			images/mario/question2.png
+Texture     TexQuestionBlock		images/animations/QuestionBlock.png
+Texture     TexCoin					images/mario/coin.png
+Texture     TexCoinAnim				images/animations/coinspin.png
+Texture     TexPole					images/mario/Flagpole.png
+Animation   Stand					TexStand			1   1
+Animation   Ground					TexGround			1   1
+Animation   Brick					TexBrick			1   1
+Animation   Block					TexGround			1   1
+Animation   Pole					TexPole				1   1
+Animation   Coin					TexCoin				6   5
+Animation   CoinAnim				TexCoinAnim			6   10
+Animation   Run						TexRun				3   1440000
+Animation   Jump					TexAir				1   1
+Animation   Shoot					TexShoot			1   1
+Animation   Smallbush				TexSmallbush		1   1
+Animation   Megabuster				TexBuster			1   1
+Animation   Buster					TexBuster			1   1
+Animation   CloudSmall				TexSmallCloud		1   1
+Animation   Explosion				TexExplode			12  5
+Animation   Busher					TexBigBush			1   1
+Animation   BushBig					TexBigBush			1   1
+Animation   Pipe					TexPipe				1   1
+Animation   PipeTall				TexTallPipe			1   1
+Animation   Cloud					TexCloud			1   1
+Animation   GoombaWalk				TexGoombawalk       2   8
+Animation   CloudBig				TexCloud			1   1
+Animation   GoombaDeath2			TexGoombadeath      2   6
+Animation   Question				TexQuestion1		4	100
+Animation   Question2				TexQuestion2		1	1
+Animation   Question3				TexQuestion3		1	1
+Animation   QuestionBlock			TexQuestionBlock		1  1
+Font        Numbers					fonts/numbers.ttf
+Font        Pixeled					fonts/pixeled.ttf
+Font        Tech					fonts/tech.ttf
